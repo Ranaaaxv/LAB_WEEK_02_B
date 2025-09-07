@@ -42,7 +42,7 @@ class ResultActivity : AppCompatActivity() {
                 colorCode?.uppercase())
             val backButton = findViewById<Button>(R.id.back_button)
             backButton.setOnClickListener {
-                finish() // untuk close activity ini dan kembali ke MainActivity
+                finish() // untuk close activity ini dan langsung kembali ke MainActivity
             }
         }
     }
